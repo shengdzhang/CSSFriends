@@ -1,0 +1,53 @@
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display:block
+}
+
+.modal-screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-form {
+  position: absolute;
+  background-color: #fff;
+  z-index: 3;
+  top: 100px;
+  margin-left: -220px;
+  left: 50%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+  width: 360px;
+}
+
+.modal-form > h1 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.modal-form > p {
+  margin-bottom: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 36px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  color: #f00;
+}

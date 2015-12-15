@@ -1,0 +1,33 @@
+.content-header {
+  min-height: 200px;
+  background-image: url("../shared/img/cats.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content-header > h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 20px;
+  line-height: 1;
+  left: 240px;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.friend-button {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.friend-button:hover {
+  background-color: #eee;
+}

@@ -1,0 +1,36 @@
+.footer {
+  background-color: #fff;
+  color: #aaa;
+  width: 900px;
+  margin: 0px auto;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.footer-copy {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list > li {
+  display: block;
+  float: left;
+}
+
+.footer-copy, .footer-list > li {
+  margin: 20px 0px;
+  margin-right: 20px;
+}
+
+.footer-list > li:hover {
+  color: #000;
+}

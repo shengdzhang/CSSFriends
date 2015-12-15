@@ -1,0 +1,55 @@
+.post {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.post-thumb {
+  float: left;
+  margin-right: 20px;
+}
+
+.post-body {
+  float: left;
+  width: 540px;
+}
+
+.post-body > h2 {
+  font-weight: 700;
+  display: block;
+  font-size: 24px;
+}
+
+.post-body > p {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-info-list {
+  float: left;
+}
+
+.footer-info-list > li {
+  float: left;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer-info-list > li:after {
+  content: "·";
+  padding: 0 5px;
+}
+
+.footer-info-list > li:last-child:after {
+  content: none;
+}
+
+.footer-links-list {
+  float: right;
+}
+
+.footer-links-list > li {
+  float: left;
+  padding-left: 10px;
+}

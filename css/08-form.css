@@ -1,0 +1,84 @@
+.form {
+  margin-bottom:20px;
+}
+
+.form-thumb {
+  float: left;
+}
+
+.form-fieldset {
+  float: left;
+  margin-left: 20px;
+  padding: 19px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.input > label {
+  display: block;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.input > input, .input > textarea {
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(100% - 22px);
+}
+
+.input > textarea {
+  height: 120px;
+}
+
+.input > input:focus, .input > textarea:focus {
+  border: 1px solid #0c0;
+}
+
+.submit {
+  padding-bottom: 3px;
+}
+
+.submit > button {
+  position: relative;
+  background-color: #0c0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 3px 3px 0 0 #070;
+  margin-right: 3px;
+}
+
+.submit > button:hover {
+  background-color: #0b0;
+}
+
+.submit > button:active {
+  top: 3px;
+  left: 3px;
+  background: #0a0;
+  box-shadow: none;
+}
+
+.button-alternative {
+  padding-left: 5px;
+}
+
+.button-alternative > strong {
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.button-alternative > strong:hover {
+  color: #f00;
+  cursor: pointer;
+}

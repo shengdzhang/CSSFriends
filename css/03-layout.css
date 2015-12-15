@@ -1,0 +1,35 @@
+.content {
+  width: 900px;
+  margin: 0px auto;
+  background-color: #fff;
+  color: #000;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.content-sidebar {
+  width: 200px;
+  padding: 20px;
+  min-height: 200px;
+  float: left;
+}
+
+.content-body {
+  width: 620px;
+  padding: 20px;
+  min-height: 200px;
+  float: left;
+}
+
+.content:before {
+  content: "";
+  position: absolute;
+  background-color: #ccc;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: 240px;
+  display: block;
+}
